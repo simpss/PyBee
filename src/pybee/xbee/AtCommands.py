@@ -1,4 +1,4 @@
-from pybee.xbee import AtCommand
+from pybee.xbee.AtCommand import AtCommand
 
 __author__ = 'siim'
 

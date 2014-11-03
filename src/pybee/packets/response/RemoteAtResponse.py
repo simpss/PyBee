@@ -1,5 +1,5 @@
-from pybee.packets.response import LocalAtResponse
-from pybee.xbee import XbeeAddress
+from pybee.packets.response.LocalAtResponse import LocalAtResponse
+from pybee.xbee.XbeeAddress import XbeeAddress
 
 __author__ = 'siim'
 

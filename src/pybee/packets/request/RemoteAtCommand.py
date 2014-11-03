@@ -1,5 +1,5 @@
 from pybee.packets.BaseRequest import BaseRequest
-from pybee.packets.request import LocalAtCommand
+from pybee.packets.request.LocalAtCommand import LocalAtCommand
 from pybee.packets.constants.FrameTypes import FrameType
 
 

@@ -1,6 +1,6 @@
-from pybee.packets.request import RemoteAtCommand
-from pybee.packets.response import RemoteAtResponse
-from pybee.xbee import AtCommand
+from pybee.packets.request.RemoteAtCommand import RemoteAtCommand
+from pybee.packets.response.RemoteAtResponse import RemoteAtResponse
+from pybee.xbee.AtCommand import AtCommand
 
 from pybee.packets.constants.CommandOptions import CommandOption
 

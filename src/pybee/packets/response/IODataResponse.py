@@ -1,6 +1,7 @@
-from pybee.packets import BaseResponse
-from pybee.packets.response import Sample
-from pybee.xbee import AtCommands, XbeeAddress
+from pybee.packets.BaseResponse import BaseResponse
+from pybee.packets.response.Sample import Sample
+from pybee.xbee.AtCommands import AtCommands
+from pybee.xbee.XbeeAddress import XbeeAddress
 
 __author__ = 'siim'
 

@@ -1,7 +1,4 @@
-from pybee.packets import BaseResponse
-
-__author__ = 'siim'
-
+from pybee.packets.BaseResponse import BaseResponse
 from pybee.packets.constants.FrameTypes import FrameType
 from pybee.packets.constants.AtStatuses import AtStatus
 
@@ -52,6 +49,7 @@ class LocalAtResponse(BaseResponse):
         self._at_command = None
         self._command_status = None
         self._command_data = None
+
 
     def fill_data(self, data):
         """

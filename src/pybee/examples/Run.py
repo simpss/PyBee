@@ -1,4 +1,6 @@
-from pybee.xbee import AtCommand, XbeeAddress, Xbee
+from pybee.xbee.AtCommand import AtCommand
+from pybee.xbee.XbeeAddress import XbeeAddress
+from pybee.xbee.Xbee import Xbee
 
 from pybee.examples.pinRead import read_pin
 from pybee.examples.pinChange import change_pin
@@ -20,4 +22,4 @@ xbee_local = Xbee().setup_local(port, baud)
 xbee_remote = Xbee().setup_remote(address)
 
 read_pin(xbee_local, xbee_remote)
-change_pin(xbee_local, xbee_remote, Pin.DIO_1, AtCommand.digital_output_high)
+change_pin(xbee_local, xbee_remote, Pin.DIO_1, AtCommand.digital_output_low)
