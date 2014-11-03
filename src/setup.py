@@ -1,13 +1,13 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 setup(
-    name='xbee-api',
-    version='0.1',
-    packages=['xbee', 'packets', 'packets.request', 'packets.response'],
-    #package_dir={'': 'src'},
+    name='pyBee',
+    version='0.0.1',
+    packages=find_packages(),
+    namespace_packages=['pybee','pybee.xbee', 'pybee.packets', 'pybee.examples'],
     url='',
-    license='',
-    author='Siim',
+    license='WTFPL',
+    author='siim',
     author_email='',
     description=''
 )
