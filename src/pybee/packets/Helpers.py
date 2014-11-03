@@ -1,5 +1,3 @@
-__author__ = 'siim'
-
 from itertools import tee
 
 

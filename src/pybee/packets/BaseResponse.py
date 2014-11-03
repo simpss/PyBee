@@ -1,6 +1,5 @@
 from pybee.packets import Helpers
 
-__author__ = 'siim'
 
 
 class BaseResponse():

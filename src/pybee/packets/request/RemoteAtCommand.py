@@ -1,8 +1,5 @@
-from pybee.packets import BaseRequest
+from pybee.packets.BaseRequest import BaseRequest
 from pybee.packets.request import LocalAtCommand
-
-__author__ = 'siim'
-
 from pybee.packets.constants.FrameTypes import FrameType
 
 

@@ -2,8 +2,6 @@ from pybee.packets.request import RemoteAtCommand
 from pybee.packets.response import IODataResponse, RemoteAtResponse
 from pybee.xbee import AtCommand, AtCommands
 
-__author__ = 'siim'
-
 from pybee.xbee.Pins import Pin
 from pybee.packets.constants.CommandOptions import CommandOption
 

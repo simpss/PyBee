@@ -1,7 +1,4 @@
-from pybee.packets import BaseRequest
-
-__author__ = 'siim'
-
+from pybee.packets.BaseRequest import BaseRequest
 from pybee.packets.constants.FrameTypes import FrameType
 
 

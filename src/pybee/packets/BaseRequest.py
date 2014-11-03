@@ -1,7 +1,4 @@
 from pybee.packets import Helpers
-
-__author__ = 'siim'
-
 import struct
 
 

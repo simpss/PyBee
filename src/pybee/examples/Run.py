@@ -1,7 +1,5 @@
 from pybee.xbee import AtCommand, XbeeAddress, Xbee
 
-__author__ = 'siim'
-
 from pybee.examples.pinRead import read_pin
 from pybee.examples.pinChange import change_pin
 from pybee.xbee.Pins import Pin
